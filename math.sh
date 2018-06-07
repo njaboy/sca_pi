@@ -1,5 +1,12 @@
 #!/bin/bash
 
-let a=5%2
+counter=2
 
-echo $a 
+while [ $counter -le 20 ]
+    do
+        echo $counter
+        ((counter++))
+        ((counter++))
+    done
+
+echo 'All done'
